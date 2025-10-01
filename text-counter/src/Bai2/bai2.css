@@ -1,0 +1,47 @@
+.traffic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    opacity: 0.3;
+    transition: opacity 0.5s;
+    border: 2px solid #333;
+  }
+  
+  .light.red {
+    background: red;
+  }
+  .light.yellow {
+    background: yellow;
+  }
+  .light.green {
+    background: green;
+  }
+  
+  .active {
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  }
+  
+  .btn-change {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .btn-change:hover {
+    background: #555;
+  }
+  

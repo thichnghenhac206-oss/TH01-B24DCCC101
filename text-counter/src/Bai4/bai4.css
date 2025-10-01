@@ -1,0 +1,33 @@
+.bai4-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    background: #f9f9f9;
+  }
+  
+  button {
+    background: #4caf50;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #45a049;
+  }
+  
