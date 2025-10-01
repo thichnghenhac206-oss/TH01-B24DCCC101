@@ -1,0 +1,16 @@
+.text-counter {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .text-counter h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .text-counter input {
+    padding: 5px;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
